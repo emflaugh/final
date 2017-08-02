@@ -1,0 +1,13 @@
+<div class="profile-container">
+  <h1>Profile</h1>
+  <h2>Welcome, {{ userDetails.name }}</h2>
+  <div class="user-data">
+    <img src="{{ userDetails.img}}" alt="User Picture">
+    <ul class="li-data">
+      <li>Email: {{ userDetails.email }}</li>
+      <li>Phone Number: {{ userDetails.phone }}</li>
+      <li>Locaiton: {{ userDetails.location }}</li>
+    </ul>
+  </div>
+  <a href="#">Edit Profile</a>
+</div>
